@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 595.3 841.9">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 25.5px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-6, .cls-7, .cls-8, .cls-11, .cls-15, .cls-12, .cls-14 {
+        fill: #1d1d1b;
+      }
+
+      .cls-16 {
+        fill: #680e00;
+      }
+
+      .cls-16, .cls-17 {
+        stroke: #1d1d1b;
+      }
+
+      .cls-16, .cls-17, .cls-18 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-size: 23px;
+      }
+
+      .cls-3 {
+        font-size: 58.6px;
+      }
+
+      .cls-4 {
+        font-size: 21px;
+      }
+
+      .cls-5 {
+        font-size: 58.6px;
+      }
+
+      .cls-5, .cls-10, .cls-13 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        font-size: 23.3px;
+      }
+
+      .cls-7 {
+        font-size: 17.1px;
+      }
+
+      .cls-17, .cls-18 {
+        fill: none;
+      }
+
+      .cls-19 {
+        fill: #a8a7a7;
+      }
+
+      .cls-8 {
+        font-size: 26.2px;
+      }
+
+      .cls-20 {
+        fill: #6c1502;
+      }
+
+      .cls-10 {
+        font-size: 38.6px;
+      }
+
+      .cls-21 {
+        fill: #444;
+      }
+
+      .cls-11 {
+        font-size: 26.5px;
+      }
+
+      .cls-22 {
+        fill: #515151;
+      }
+
+      .cls-12 {
+        font-size: 19.3px;
+      }
+
+      .cls-13 {
+        font-size: 61.3px;
+      }
+
+      .cls-14 {
+        font-size: 31.8px;
+      }
+
+      .cls-18 {
+        stroke: #909091;
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .cls-23 {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="_Слой_1" data-name="Слой_1">
+      <g id="_Слой_1-2" data-name="_Слой_1">
+        <path class="cls-22" d="M-53.7,509.3V171.9c0-8.9,8-16.1,18-16.2l674.8-.7c10.1-.1,17.8,5,17.8,14.1v340.2c0,9-8.2,16.2-18.2,16.2H-35.5c-10.1,0-18.2-7.3-18.2-16.2h0Z"/>
+        <path class="cls-19" d="M-34.7,506.1V194.3c0-5.5,5-10.1,11.2-10.1l654.8-1.3c5.2,0,10.9,1.2,11.2,6v317c.1,5.7-5,10.3-11.3,10.3h-80.6v-4l-105.3-.2v4.2H155.2v-3.7H53.4v3.7H-23.4c-6.3,0-11.3-4.5-11.3-10.1h0Z"/>
+        <g class="cls-9">
+          <text class="cls-7" transform="translate(126.3 377.5) scale(1.5 1)"><tspan x="0" y="0">ГОСТ 31818.11-2012 ‘</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-7" transform="translate(126.5 402.7) scale(1.5 1)"><tspan x="0" y="0">ГОСТ 31819.11-2012</tspan></text>
+        </g>
+        <polygon points="6.3 289 357.4 289 357.4 358 6.3 359.8 6.3 289"/>
+        <g class="cls-9">
+          <text class="cls-11" transform="translate(107.5 275.9) scale(1.2 1)"><tspan x="0" y="0">230В</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-6" transform="translate(192.1 274) scale(1.2 1)"><tspan x="0" y="0">5(60)А</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-8" transform="translate(292.7 275) scale(1.2 1)"><tspan x="0" y="0">50Гц</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-2" transform="translate(-20 392.3) scale(1.1 1)"><tspan x="0" y="0">А=3200</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-4" transform="translate(-19.4 417.6) scale(1.2 1)"><tspan x="0" y="0">имп./(кВт.ч)</tspan></text>
+        </g>
+        <path class="cls-15" d="M433.2,282.3h147.2c6.8,0,12.3,4.9,12.3,10.9v55.6c0,6-5.5,10.9-12.3,10.9h-147.2c-6.8,0-12.3-4.9-12.3-10.9v-55.6c0-6,5.5-10.9,12.3-10.9Z"/>
+        <g class="cls-9">
+          <text class="cls-10" transform="translate(442.9 333.1) scale(1.3 1)"><tspan x="0" y="0">кВт.ч</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-13" transform="translate(24.6 347.6) scale(1.1 1)"><tspan x="0" y="0">0</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-13" transform="translate(84 347.6) scale(1.1 1)"><tspan x="0" y="0">0</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-13" transform="translate(153.1 347.6) scale(1.1 1)"><tspan x="0" y="0">0</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-13" transform="translate(224.5 347.6) scale(1.1 1)"><tspan x="0" y="0">0</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-13" transform="translate(294 348.3) scale(1.1 1)"><tspan x="0" y="0">2</tspan></text>
+        </g>
+        <rect class="cls-20" x="357.4" y="289" width="58.8" height="69.1"/>
+        <g class="cls-9">
+          <text class="cls-5" transform="translate(369.5 347.7) scale(1.1 1)"><tspan x="0" y="0">5</tspan></text>
+        </g>
+        <ellipse class="cls-17" cx="415.1" cy="446.9" rx="21.9" ry="19.5"/>
+        <g class="cls-9">
+          <text class="cls-14" transform="translate(406.2 457.3) scale(1.1 1)"><tspan x="0" y="0">1</tspan></text>
+        </g>
+        <polygon class="cls-17" points="507.4 473.5 488.2 459.5 468.3 472.8 476.4 451.4 457 439.4 481.3 438.9 489.1 419.6 496.2 439.2 520.2 440.6 500.5 451.9 507.4 473.5"/>
+        <g class="cls-9">
+          <text class="cls-1" transform="translate(480.7 455.4) scale(1.1 1)"><tspan x="0" y="0">4</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-12" transform="translate(407.1 492.2) scale(1.2 1)"><tspan x="0" y="0">Сделано в России</tspan></text>
+        </g>
+        <g class="cls-9">
+          <text class="cls-3" transform="translate(74.1 234.9) scale(1.1 1)"><tspan x="0" y="0">Меркурий 201.7</tspan></text>
+        </g>
+        <ellipse class="cls-16" cx="6.3" cy="464.9" rx="20.2" ry="18"/>
+        <path class="cls-23" d="M132,427.4h206c5.8,0,10.5,4.2,10.5,9.4v36.7c0,5.2-4.7,9.4-10.5,9.4h-206c-5.8,0-10.5-4.2-10.5-9.4v-36.7c0-5.2,4.7-9.4,10.5-9.4Z"/>
+        <path class="cls-21" d="M-29.1,525.6s-8.4,174.7,35.4,195.5l225.8,3.6,2.8-2.6h148.9l2.6,2.6h218.1s35.3,21.2,34.1-199.2"/>
+        <line class="cls-18" x1="32.9" y1="692.6" x2="586.9" y2="692.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

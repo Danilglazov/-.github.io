@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ШТС</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu2">
+                <img src="img/logo.svg" alt="" class="logo">
+                <ul class="menu">
+                    <li class="menu-item">Наши услуги</li>
+                    <li class="menu-item">О нас</li>
+                    <li class="menu-item">Отзывы</li>
+                    <li class="menu-item">Часто задаваемые вопросы</li>
+                    <li class="menu-item">Заказ услуги</li>
+                </ul>
+        </div>
+    </header>
+    <section class="services">
+        <h2>Наши услуги</h2>
+        <div class="uslugi">           
+            <div class="service-item1">
+                <div>
+                    <img src="img/water.svg" alt="" class="svg1">
+                </div>
+                <h3 class="zagol">Установка водяного счетчика</h3>
+                <p>Профессиональная установка водяных счетчиков для точного учета расхода воды.</p>      
+            </div>
+            <div class="service-item2">
+                <div>
+                    <img src="img/gas.svg" alt="" class="svg2">
+                </div>
+                <h3 class="zagol">Установка газового счетчика</h3>
+                <p>Безопасная установка газовых счетчиков, соответствующих всем нормам и требованиям.</p>         
+            </div>
+            <div class="service-item3">
+                <div>
+                    <img src="img/elektro.svg" alt="" class="svg3">
+                </div>
+                <h3 class="zagol">Установка электросчетчика</h3>
+                <p>Эффективные решения для установки электросчетчиков, позволяющие контролировать расход электроэнергии.</p>           
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about"> 
+            <h2>О нас</h2>
+            <p>Наша компания имеет более 10 лет опыта в установке и обслуживании приборов учёта. Мы гордимся высоким качеством услуг и вниманием к деталям.</p>
+            <p>Наша команда состоит из квалифицированных специалистов, которые прошли обучение и сертификацию. Мы используем только современные технологии и оборудование, что позволяет нам выполнять работу быстро и эффективно.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Отзывы</h2>
+        <blockquote>
+            <p>«Отличная работа, быстро и качественно!»</p>
+            <footer class="otzyf">Анна</footer>
+        </blockquote>
+        <blockquote>
+            <p>«Рекомендую! Все сделали на высшем уровне.»</p>
+            <footer class="otzyf">Сергей</footer>
+        </blockquote>
+        <blockquote>
+            <p>«Профессионалы своего дела. Спасибо за отличный сервис!»</p>
+            <footer class="otzyf">Михаил</footer>
+        </blockquote>
+    </section>
+
+    <section id="faq">
+        <h2>Часто задаваемые вопросы</h2>
+        <div class="faq-item">
+            <h3>Как быстро вы можете установить прибор учёта?</h3>
+            <p>Мы обычно выполняем установку в течение 1-2 дней после подтверждения заказа.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Какова стоимость установки?</h3>
+            <p>Цена зависит от типа прибора и сложности установки. Мы предоставим смету после консультации.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Нужны ли какие-то документы для установки?</h3>
+            <p>Да, потребуется паспорт и технический паспорт на прибор учёта.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Заказ услуги</h2>
+        <form id="orderForm">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="service">Услуга:</label>
+            <select id="service" required>
+                <option value="water">Установка водяного счетчика</option>
+                <option value="gas">Установка газового счетчика</option>
+                <option value="electricity">Установка электросчетчика</option>
+            </select>
+
+            <label for="message">Дополнительная информация:</label>
+            <textarea id="message" rows="4" placeholder="Хотите что-то добавить?"></textarea>
+
+            <button type="submit">Заказать</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p> 2024 Услуги установки приборов учёта</p>
+        <p>Телефон: +7 (123) 456-78-90 | Email: shts@yandex.ru</p>
+    </footer>
+</body>
+</html>

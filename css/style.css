@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    
+}
+
+
+header {
+    
+    background-color: #c26363;
+} 
+
+.menu-item {
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: #da9a25;
+    
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+ 
+
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.logo {
+    max-width: 150px;
+    max-height: 150px;
+    justify-content: center;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding-top: 3%;
+    margin-right: 25%;
+    font-size: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #da9a25;
+}
+
+section {
+    padding: 40px;
+    margin: 40px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease;
+    
+    
+
+}
+
+.services {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h2 {
+    border-bottom: 2px solid #c26363;
+    padding-bottom: 10px;
+}
+
+.testimonials {
+    border-radius: 8px;
+}
+
+.uslugi {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+    padding-top: 5px;
+}
+
+
+.svg1, .svg2, .svg3 {
+    align-items: center;
+    display: flex;
+    width:  500px;
+    height: 500px;
+    
+}
+
+
+
+.service-item1, .service-item2, .service-item3, .faq-item, article {
+    transition: transform 0.3s;
+}
+
+.service-item1, .service-item2, .service-item3 {
+    margin-left: auto;
+    padding: auto;
+
+}
+
+.service-item1:hover, .service-item2:hover, .service-item3:hover {
+    transform: scale(1.02);
+}
+
+.about {
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.zagol {
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.about:hover {
+    transform: scale(1.02);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.otzyf {
+    border-radius: 8px;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border: 1px solid #c26363;
+    outline: none;
+}
+
+button {
+    background: #c26363;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    max-width: 100px;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+
+}
+
+button:hover {
+    background: #da9a25;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    position: relative;
+}
+
+blockquote {
+    background: #e9ecef;
+    padding: 10px;
+    border-left: 5px solid #c26363;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 1300px) {
+    /* Уменьшение размеров элементов */
+    .menu {
+        gap: 5rem;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .uslugi {
+        margin: 5%;
+    }
+
+    .svg1, .svg2, .svg3,
+    img {
+        width:  350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+
+    .svg1, .svg2, .svg3,
+    img {
+        width:  300px;
+        height: 300px;
+        
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .svg1, .svg2, .svg3,
+    img {
+        width:  250px;
+        height: 250px;
+        
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .svg1, .svg2, .svg3,
+    img {
+        width:  200px;
+        height: 200px;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* Упрощение макета */
+    header {
+        background-color: #c26363;
+    } 
+
+    .menu {
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 5%;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    .uslugi {
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .svg1, .svg2, .svg3,
+    img {
+        width:  250px;
+        height: 250px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    /* Дальнейшее упрощение макета */
+    header {
+        background-color: #c26363;
+    } 
+
+    .menu {
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 5%;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0 2px;
+    }
+
+    .uslugi {
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .svg1, .svg2, .svg3,
+    img {
+        width:  200px;
+        height: 200px;
+    }
+}
+
